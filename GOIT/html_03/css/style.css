@@ -54,10 +54,10 @@ body {
 .nav {
     height: 40px;
     font-size: 0;
-    background-color: #444343;   /* Old browsers */
-    background-color: -moz-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* FF3.6-15 */
-    background-color: -webkit-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* Chrome10-25,Safari5.1-6 */
-    background-color: linear-gradient(to bottom, #444343 0%, #5e5e5e 100%);    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #444343;   /* Old browsers */
+    background: -moz-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #444343 0%, #5e5e5e 100%);    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e', GradientType=0); /* IE6-9 */
 }
 
@@ -89,10 +89,10 @@ body {
 
 .nav_link:hover {
     border-color: #838383;
-    background-color: #2e2e2e;  /* Old browsers */
-    background-color: -moz-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */
-    background-color: -webkit-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%);  /* Chrome10-25,Safari5.1-6 */
-    background-color: linear-gradient(to bottom, #2e2e2e 0%, #4a4a4a 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #2e2e2e;  /* Old browsers */
+    background: -moz-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%);  /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2e2e2e 0%, #4a4a4a 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a', GradientType=0); /* IE6-9 */
 }
 
