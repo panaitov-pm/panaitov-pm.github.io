@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    width: 80%;
+    max-width: 1060px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.wrap:before,
+.wrap:after {
+    position: absolute;
+    top: 5px;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    content: "";
+    z-index: -1;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 966px;
+    height: 170px;
+}
+
+.header_logo {
+    height: 130px;
+    width: 145px;
+    line-height: 130px;
+}
+
+.header_img {
+    margin-top: 5px;
+    width: auto;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.nav {
+    height: 40px;
+    font-size: 0;
+    background-color: #444343;   /* Old browsers */
+    background-color: -moz-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* FF3.6-15 */
+    background-color: -webkit-linear-gradient(top, #444343 0%, #5e5e5e 100%);    /* Chrome10-25,Safari5.1-6 */
+    background-color: linear-gradient(to bottom, #444343 0%, #5e5e5e 100%);    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e', GradientType=0); /* IE6-9 */
+}
+
+.nav_list,
+.menu_list {
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
+.nav_link {
+    display: block;
+    padding: 0 25px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+.nav_link:hover {
+    border-color: #838383;
+    background-color: #2e2e2e;  /* Old browsers */
+    background-color: -moz-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */
+    background-color: -webkit-linear-gradient(top, #2e2e2e 0%, #4a4a4a 100%);  /* Chrome10-25,Safari5.1-6 */
+    background-color: linear-gradient(to bottom, #2e2e2e 0%, #4a4a4a 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a', GradientType=0); /* IE6-9 */
+}
+
+.nav_link:first-letter {
+    text-transform: uppercase;
+}
+
+
+/*CONTAINER*/
+
+.container {
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 966px;
+    min-height: 170px;
+    font-size: 0;
+    color: #2c2c2c;
+}
+
+.menu {
+    display: inline-block;
+    margin-right: 48px;
+    width: 100%;
+    max-width: 240px;
+    font-size: 13px;
+}
+
+.menu_list {
+    border: 1px solid #c8c8c8;
+    line-height: 40px;
+}
+
+.menu_item {
+    padding-left: 24px;
+    height: 40px;
+    border-top: 1px solid #c8c8c8;
+}
+
+.menu_item:first-child {
+    border-top: 0;
+}
+
+.menu_link {
+    display: block;
+    text-decoration: none;
+    color: #656363;
+}
+
+.menu_link:hover {
+    padding-left: 10px;
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+}
+
+.content {
+    display: inline-block;
+    padding-bottom: 20px;
+    max-width: 678px;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.content_inner {
+    position: relative;
+    border: 1px solid #c8c8c8;
+    height: 400px;
+}
+
+.content_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-image: url(../img/bike.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.content_description {
+    margin-top: 39px;
+    padding: 0 24px;
+    line-height: 1.7em;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 966px;
+    background-color: #e1e1e1;
+}
+
+.footer_nav {
+    display: inline-block;
+    height: 40px;
+    font-size: 0;
+}
+
+.footer_list {
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.footer_item {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.footer_item:last-child {
+    margin-right: 0;
+}
+
+.footer_link {
+    display: block;
+    padding: 0 25px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+}
+
+.footer_link:first-letter {
+    text-transform: uppercase;
+}
+
+.footer_copyright {
+    float: right;
+    padding-right: 25px;
+    line-height: 40px;
+}
