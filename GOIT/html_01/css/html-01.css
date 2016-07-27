@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-   font-family: Arial, sans-serif;
+html,
+body,
+.wrapper {
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 .wrapper {
@@ -16,7 +18,7 @@ body {
     color: #010101;
 }
 
-.wrapper__title {
+.wrapper_title {
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
@@ -32,7 +34,7 @@ body {
     text-align: center;
 }
 
-.header__img {
+.header_img {
     width: 202px;
     height: 202px;
     background-color: #0056d3;
@@ -41,7 +43,7 @@ body {
     border-radius: 2px;
 }
 
-.header__status {
+.header_status {
     padding-top: 18px;   /* +default = total 23px */
     font-size: 14px;
     text-align: left;
@@ -59,12 +61,12 @@ body {
     color: #1f1f1f;
 }
 
-.description__title {
+.description_title {
     padding-top: 15px;
     font-size: 18px;
 }
 
-.description__list {
+.description_list {
     list-style-type: none;
     padding-top: 15px;   /* +default = total 20px */
     padding-left: 15px;
@@ -72,11 +74,11 @@ body {
     color: #3a3a3a;
 }
 
-.description__list_padding {
+.description_list_padding {
     padding-top: 20px; /* +default = total 25px */
 }
 
-.description__item {
+.description_item {
     position: relative;
     margin-left: 15px;
     padding-left: 5px;  /* +default = total 15px */
@@ -84,7 +86,7 @@ body {
     color: #3d3d3d;
     line-height: 1.5em;
 }
-.description__item_bullen:before{
+.description_item_bullen:before{
     position: absolute;
     content: "\2022";
     top: -3px;
@@ -93,7 +95,7 @@ body {
     color: #3a3a3a;
 }
 
-.description__link {
+.description_link {
     font-style: italic;
     color: #0056d3;
 }
