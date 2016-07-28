@@ -17,19 +17,8 @@ body {
     width: 80%;
     max-width: 1060px;
     min-height: 100%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     background-color: #fff;
-}
-
-.wrap:before,
-.wrap:after {
-    position: absolute;
-    top: 5px;
-    bottom: 4px;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    content: "";
-    z-index: -1;
 }
 
 .header {
