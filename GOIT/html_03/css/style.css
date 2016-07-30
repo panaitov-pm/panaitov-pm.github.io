@@ -10,10 +10,15 @@ body {
     font-size: 13px;
 }
 
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
 .wrap {
-    position: relative;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding: 0 48px 60px 48px;
     width: 80%;
     max-width: 1060px;
     min-height: 100%;
@@ -100,9 +105,8 @@ body {
 }
 
 .menu {
-    display: inline-block;
-    margin-right: 48px;
-    width: 100%;
+ 
+    width: 30%;
     max-width: 240px;
     font-size: 13px;
 }
@@ -113,7 +117,6 @@ body {
 }
 
 .menu_item {
-    padding-left: 24px;
     height: 40px;
     border-top: 1px solid #c8c8c8;
 }
@@ -124,22 +127,22 @@ body {
 
 .menu_link {
     display: block;
+    padding-left: 24px;
     text-decoration: none;
     color: #656363;
 }
 
 .menu_link:hover {
-    padding-left: 10px;
+    padding-left: 34px;
     background-color: #f9f9f9;
     color: #2c2c2c;
 }
 
 .content {
-    display: inline-block;
+    float: right;
     padding-bottom: 20px;
-    max-width: 678px;
+    width: 70%;
     font-size: 13px;
-    vertical-align: top;
 }
 
 .content_inner {
