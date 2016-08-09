@@ -184,55 +184,32 @@ body {
 }
 
 .container {
-    overflow: hidden;
-}
-
-.background_left {
-    position: relative;
-    right: 57%; /* width content column*/
-}
-
-.background_left,
-.background_right {
-    float: left;
-    background-color: #edeef0; 
-}
-
-.background_content {
-    float: left;
-    position: relative;
-    right: 21%; /* width aside_right*/
-    background-color: #fff;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
 }
 
 .content {
-    position: relative;
-    left: 78%;
     margin-top: 30px;
-    margin-left: 21%;
     padding: 0 5px 10px;
-    width: 57%;
-    box-sizing: border-box;
+    width: 58%;
     font-size: 14px;
     text-align: center;
     line-height: 25px;
     color: #424C43;
-    overflow: hidden;
 }
 
 .aside {
-    float: left;
-    position: relative;
     margin-top: 4px;
     padding: 0 5px 10px;
     width: 21%;
-    height: 100%;
     font-size: 14px;
     text-align: center;
     line-height: 25px;
+    background-color: #fbfbfb;
     color: #424C43;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
 .aside_title {
@@ -240,14 +217,10 @@ body {
 }
 
 .left_aside {
-    left: 78%;
-    width: 22%;
     border-right: 1px solid #E6E8EA;
 }
 
 .right_aside {
-    float: right;
-    left: 78%;
     border-left: 1px solid #E6E8EA;
 }
 
