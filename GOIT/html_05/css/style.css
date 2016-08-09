@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Regular.eot');
+    src: url('../fonts/HelveticaNeue-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Regular.woff') format('woff'), url('../fonts/HelveticaNeue-Regular.ttf') format('truetype'), url('../fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Regular.eot');
+    src: url('../fonts/HelveticaNeue-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Regular.woff') format('woff'), url('../fonts/HelveticaNeue-Regular.ttf') format('truetype'), url('../fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    position: relative; /* for registration */
+    min-height: 1064px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/* HEADER */
+
+.header {
+    height: 36px;
+    padding: 0 20px;
+    background-image: url("../img/background_header.jpg");
+}
+
+.header_list {
+    position: relative;
+    float: right;
+}
+
+.header_list_flag {
+    margin-left: 35px;
+}
+
+.header_list_border:last-child::after {  /* Add an edge in header */
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #60b5ed;
+    content: "";
+}
+
+.header_list_flag:first-child::before {   /* header flag */
+    position: absolute;
+    top: 7px;
+    left: -15px;
+    width: 20px;
+    height: 25px;
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.header_item {
+    float: left;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.header_link {
+    display: block;
+    padding: 0 15px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #60b5ed;
+}
+
+.header_link:hover,
+.header_link_color,
+.header_link_color:hover {
+    font-weight: bold;
+}
+
+.header_link:hover {
+    border-bottom: 1px solid #4eabda;
+    background: #4eabda;
+    color: #fff;
+}
+
+.header_link_color {
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    color: #fff;
+}
+
+.header_link_color:hover {
+    border-color: #3a87c3;
+    background: #50b0dc;     /* Old browsers */
+    background: linear-gradient(to bottom, #50b0dc 0%, #3584c9 100%);    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #fff;
+}
+
+.header_small_letter {
+    text-transform: lowercase;
+}
+
+.header_underline {
+    border-bottom: 2px solid #aec7e5;
+}
+
+/* REGISTRATION */
+
+.registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -312px;
+    width: 560px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.registration_title {
+    font-size: 24px;
+    border-bottom: 2px solid #919a8f;
+    line-height: 64px;
+}
+
+.registration_title:first-letter {
+    text-transform: uppercase;
+}
+
+.log_in {
+    position: relative;
+    display: inline-block;
+    margin: 35px auto 18px;
+    padding: 0 37px;
+    width: 202px;
+    height: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: none;
+    border-top: 1px solid #697f9b;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #305697 0%,#204376 100%); 
+    color: #FFF;
+}
+
+.log_in::after {
+    position: absolute;
+    top: -1px;
+    right: 35px;
+    content: "\203a";
+    font-size: 2em;
+}
+
+.log_in:active {
+    border-bottom: 1px solid #697f9b;
+    border-top: none;
+    background: linear-gradient(to top, #305697 0%,#204376 100%); 
+}
+
+.log_in_thin {
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.facebook_icon::before { /* Facebook icon*/
+    float: left;
+    margin: 0 0 0 -36px;
+    width: 36px;
+    font: bold 1.5em/1.7em "Trebuchet MS", Helvetica;
+    border-right: 1px solid #697f9b;
+    text-transform: lowercase;
+    -webkit-box-shadow: inset -1px 0 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -1px 0 1px rgba(0, 0, 0, 0.5);
+    content: "f";
+}
+
+/* LINE */
+
+.registration_line {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 276px;
+    text-align: center;
+}
+
+.registration_line span {
+    position: relative;
+    top: 0;
+    padding: 0 5px;
+    line-height: 36px;
+
+}
+
+.registration_line span::after, /* line after text */
+.registration_line span::before { /* line before text */
+    position: absolute;
+    top: 50%;
+    margin: -1px;
+    width: 150px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #000;
+    content: "";
+
+}
+.registration_line span::after { 
+    left: 101%;
+}
+
+.registration_line span::before {
+    right: 101%;
+}
+
+.registration_form {
+    margin: 18px auto 0;
+    width: 276px;
+}
+
+.registration_input {
+    display: block;
+    margin: 16px auto 0;
+    padding-left: 20px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+    box-sizing: border-box;
+    box-shadow: inset 0 -2px 1px rgba(29, 26, 22, 0.5);
+    text-transform: capitalize;
+    background: #111;
+    background: linear-gradient(to bottom, #111111 0%,#0e0d0d 100%);
+    color: #fff;
+}
+
+.registration_input:focus {
+    border-bottom: 1px solid #41739e;
+    box-shadow: 0 0 15px 2px #2B7BC5, 0 2px 10px rgba(0, 0, 0, 0.5) inset;
+    background: #1b5288;
+}
+
+.registration_check {
+    margin: 23px 0 23px -23px;
+}
+
+.registration_label {
+    position: relative;
+    top: -2px;
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.registration_submit {
+    width: 150px;
+    height: 36px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-top: 2px solid #61b9e3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #4faddb 0%,#317ec6 100%);
+    color: #FFF;
+}
+
+.registration_submit:active {
+    border-top: none;
+    border-bottom: 2px solid #61b9e3;
+    background: linear-gradient(to top, #4faddb 0%,#317ec6 100%);
+}
+
+.hint {
+    margin: 20px auto;
+    width: 315px;
+    font-size: 11px;
+}
+
+
