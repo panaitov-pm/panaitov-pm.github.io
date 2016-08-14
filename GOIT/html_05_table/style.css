@@ -1,0 +1,32 @@
+table {
+	border-collapse: collapse;
+	width: 400px;
+}
+
+td {
+	border: 1px solid #000;
+}
+
+.white {
+	background-color: #FFF;
+}
+
+.black	{
+	background-color: #000;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.none {
+	visibility: hidden;
+}
