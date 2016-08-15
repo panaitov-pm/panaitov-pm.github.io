@@ -21,7 +21,6 @@
 }
 
 body {
-    position: relative; /* for registration */
     min-height: 1064px;
     font-family: 'Helvetica Neue', Tahoma, sans-serif;
     font-size: 14px;
@@ -44,7 +43,7 @@ body {
 
 .header_inner {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .header_inner_border {  /* Add an edge in header */
@@ -52,11 +51,12 @@ body {
     border-left: 1px solid #60b5ed;
 }
 
-.header_inner_flag {   /* header flag */
-    padding-left: 40px;
-    background-image: url("../img/flag.png");
-    background-repeat: no-repeat;
-    background-position: 20px 50%;
+.header_flag {   /* header flag */
+   margin-left: 20px;
+   margin-top: -9px;
+   max-width: 21px;
+   height: auto;
+   vertical-align: middle;
 }
 
 .header_item {
@@ -276,7 +276,8 @@ body {
 }
 
 .hint {
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 20px 0;
     width: 315px;
     font-size: 11px;
 }
