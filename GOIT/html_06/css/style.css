@@ -285,7 +285,7 @@ body {
     display: inline-block;
     position: relative;
     width: 180px;
-    line-height: 8px;
+    line-height: 14px;
     text-align: left;
     vertical-align: top;
 }
@@ -293,6 +293,7 @@ body {
 .search_car_property {
     float: left;
     width: 80px;
+    line-height: 0.4em;
 }
 
 .search_car_property_vertical {
@@ -586,12 +587,14 @@ body {
 
 .content_product_box_title {
     color: #206988;
+    letter-spacing: 0.8px;
 }
 
 .content_product_box_description {
     font-size: 13px;
     text-transform: capitalize;
     color: #1F2528;
+    letter-spacing: 0.8px;
 }
 
 .content_product_box_title:first-letter {
