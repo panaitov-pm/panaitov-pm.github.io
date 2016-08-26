@@ -29,6 +29,10 @@
         display: none;
     }
 
+    .slider__play {
+        display: none;
+    }
+
     .selection {
         margin: 58px 0 0 106px;
     }

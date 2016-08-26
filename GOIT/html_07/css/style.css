@@ -175,6 +175,23 @@ p {
     height: auto;
 }
 
+.slider__play {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 83px;
+    bottom: 39px;
+    right: 0;
+    margin: auto;
+    width: 78px;
+    height: 77px;
+    background-image: url(../img/slider-play.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
 .slider__arrow {
     position: absolute;
     top: 50%;

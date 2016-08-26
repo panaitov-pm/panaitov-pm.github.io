@@ -113,6 +113,14 @@
         max-width: 197px;
         height: 304px;
     }
+
+    .slider__play {
+        top: 59px;
+        left: 57px;
+        width: 53px;
+        height: 53px;
+    }
+
     .selection {
         margin: -32px 0 0 -55px;
     }
