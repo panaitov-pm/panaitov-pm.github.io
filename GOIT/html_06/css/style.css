@@ -36,8 +36,7 @@ body {
 
 .header_phone {
     float: left;
-    width: 303px;
-    /*total 300px*/
+    width: 303px;    /*total 300px*/
     margin-left: 8px;
     padding-top: 2px;
     color: #5E696D;
@@ -64,8 +63,7 @@ body {
     height: 25px;
     border-radius: 4px;
     background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0C3256 100%);
-    background-color: #206988;
-    /*old browsers*/
+    background-color: #206988;     /*old browsers*/
     line-height: 1.5em;
     -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -131,7 +129,8 @@ body {
 
 .header_img {
     margin-top: 11px;
-    max-width: 908px height: 100%;
+    max-width: 908px;
+    height: 100%;
 }
 
 .menu {
@@ -139,8 +138,7 @@ body {
     height: 32px;
     border: 1px solid #0D1642;
     border-radius: 3px;
-    background-color: #576068;
-    /*old browsers*/
+    background-color: #576068;      /*old browsers*/
     background-image: linear-gradient(to top, #000000, #576068);
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -171,8 +169,7 @@ body {
 
 .menu_link:hover {
     border-radius: 12px/13px;
-    background-color: #206988;
-    /*old browsers*/
+    background-color: #206988;     /*old browsers*/
     background-image: linear-gradient(to bottom, #206988, #114165 59%, #0C3256);
     color: #FFFFFF;
 }
@@ -285,18 +282,20 @@ body {
     display: inline-block;
     position: relative;
     width: 180px;
-    line-height: 14px;
+    line-height: 11px;
     text-align: left;
     vertical-align: top;
 }
 
 .search_car_property {
     float: left;
-    width: 80px;
+    width: 77px;
     line-height: 0.4em;
 }
 
 .search_car_property_vertical {
+    margin-top: 2px;
+    padding-left: 2px;
     margin-bottom: 2px;
     line-height: 1em;
 }
@@ -306,7 +305,7 @@ body {
 }
 
 .search_select_width {
-    width: 100px;
+    width: 98px;
 }
 
 .search_name {
@@ -347,6 +346,7 @@ body {
 }
 
 .search_type_property_vertical {
+    margin-top: 1px;
     margin-bottom: 2px;
     line-height: 20px;
 }
@@ -382,7 +382,7 @@ body {
 }
 
 .search_disc_inner {
-    margin-top: -5px;
+    margin-top: -4px;
     padding: 0 14px;
     width: 170px;
     box-sizing: border-box;
@@ -391,6 +391,7 @@ body {
 .search_disc_column {
     vertical-align: top;
     letter-spacing: 1px;
+    margin-bottom: 2px;
 }
 
 .search_disc_property {
@@ -432,7 +433,6 @@ body {
     display: -o-inline-flex;
     display: inline-flex;
     margin-top: 15px;
-    padding-bottom: 191px;
     min-height: 50px;
     font-size: 14px;
 }
@@ -578,7 +578,9 @@ body {
 }
 
 .content_product_box {
-    margin: 13px 0 9px 27px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    margin-left: 27px;
     width: 138px;
     height: 180px;
     font-size: 15px;
@@ -602,6 +604,7 @@ body {
 }
 
 .content_img {
+    margin: 0 auto;
     width: 134px;
     height: 125px;
     border: 1px solid #A4AEB1;
@@ -666,16 +669,12 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    padding-top: 10px;
     height: 100px;
     background-color: #213A4D;
 }
 
 .footer_menu {
-    margin: -21px;
     font-size: 13px;
     text-align: center;
 }
@@ -700,16 +699,13 @@ body {
 }
 
 .brand_logo {
-    position: relative;
-    top: -52px;
-    left: 14px;
-    margin: 0 auto;
+    margin: 38px auto 22px;
+    padding-left: 29px;
     width: 700px;
 }
 
 .copyright {
-    position: relative;
-    top: 35px;
+    margin-top: 14px;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
