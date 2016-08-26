@@ -1,0 +1,9 @@
+@media screen and (min-width: 1630px) {
+    .slider__arrow--prev {
+    	display: block;
+   	}
+
+	.slider__arrow--next {
+    	display: block;
+	}
+}

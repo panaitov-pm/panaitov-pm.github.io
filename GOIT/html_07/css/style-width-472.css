@@ -1,0 +1,7 @@
+@media screen and (max-width: 485px) {
+    
+    .slider__article {
+    	width: 211px;
+    	padding-left: 9px;
+	}
+}
