@@ -24,33 +24,23 @@
 ======Placeholder's styling
 */
 
-*::-webkit-input-placeholder {
-	color: #848484;
-	opacity: 1;
-}
-*:-moz-placeholder {
-	color: #848484;
-	opacity: 1;
-}
-*::-moz-placeholder {
-	color: #848484;
-	opacity: 1;
-}
+*::-webkit-input-placeholder,
+*:-moz-placeholder,
+*::-moz-placeholder,
 *:-ms-input-placeholder {
 	color: #848484;
 	opacity: 1;
 }
-
 
 /*
 =====Container
 */
 .container {
 	margin: 0 auto;
-	font-size: 12px;
-	font-family: 'Texgyreheros', Helvetica, Arial, sans-serif;
 	max-width: 750px;
 	min-height: 450px;
+	font-size: 12px;
+	font-family: 'Texgyreheros', Helvetica, Arial, sans-serif;
 	background-image: url('../img/bg-container.jpg');
 }
 
@@ -70,7 +60,6 @@
 	font-family: 'Pacifico', cursive;
 	font-weight: normal;
 	text-align: center;
-	display: block;
 }
 
 .logo {
@@ -90,7 +79,6 @@
 /*
 =======Main
 */
-
 .main__title {
 	margin-top: 40px;
 	margin-bottom: 0;
@@ -149,6 +137,7 @@
 .footer {
 	color: #FFF;
 }
+
 .footer__menu {
 	margin-top: 20px;
 }
@@ -182,5 +171,3 @@
 .footer__item:hover {
 	background-color: #8caf2f;
 }
-
-
